@@ -43,13 +43,13 @@ echo "Hello from user space" > /dev/char_device
 cat /dev/char_device
 ```
 
-#### 4. Unload the Kernel Module:
+#### 6. Unload the Kernel Module:
 
 ```bash
 sudo rmmod char_device
 ```
 
-#### 5. Check the kernel log again to ensure the driver was unloaded properly:
+#### 7. Check the kernel log again to ensure the driver was unloaded properly:
 
 ```bash
 sudo dmesg | tail 
