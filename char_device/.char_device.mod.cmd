@@ -1,0 +1,1 @@
+savedcmd_/home/mohsen/project/driver_kernel_modules/char_device/char_device.mod := printf '%s\n'   char_device.o | awk '!x[$$0]++ { print("/home/mohsen/project/driver_kernel_modules/char_device/"$$0) }' > /home/mohsen/project/driver_kernel_modules/char_device/char_device.mod
