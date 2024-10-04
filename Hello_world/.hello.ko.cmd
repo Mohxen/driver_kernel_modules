@@ -1,0 +1,1 @@
+savedcmd_/home/mohsen/project/driver_kernel_modules/hello.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/mohsen/project/driver_kernel_modules/hello.ko /home/mohsen/project/driver_kernel_modules/hello.o /home/mohsen/project/driver_kernel_modules/hello.mod.o

@@ -1,0 +1,1 @@
+savedcmd_/home/mohsen/project/driver_kernel_modules/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/mohsen/project/driver_kernel_modules/Module.symvers -T /home/mohsen/project/driver_kernel_modules/modules.order -i Module.symvers -e 

@@ -1,0 +1,1 @@
+savedcmd_/home/mohsen/project/driver_kernel_modules/hello.mod := printf '%s\n'   hello.o | awk '!x[$$0]++ { print("/home/mohsen/project/driver_kernel_modules/"$$0) }' > /home/mohsen/project/driver_kernel_modules/hello.mod
