@@ -1,6 +1,7 @@
 # Hello World Kernel Module
 ```bash
-make 
+sudo make
+```
 
 ## The Output: `hello.ko`
 
